@@ -1,23 +1,36 @@
 body {
+    background-color: #192655;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
 h1 {
-    color: #333;
+    color: #f3f0ca;
+    display: flex;
+    justify-content: center;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 form {
     margin-top: 20px;
+    color: #f3f0ca;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 textarea {
     width: 100%;
+    background-color: #384365;
+    color: #f3f0ca;
 }
 
 button {
     background-color: #4CAF50;
-    color: white;
+    color: #f3f0ca;
+    margin: 15px;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;

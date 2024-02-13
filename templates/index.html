@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sentiment Analysis</title>
     <link rel="stylesheet" href="/static/style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap')</style>
 </head>
 <body>
     <h1>Sentiment Analysis</h1>
     <form action="/predict_sentiment" method="post">
-        <label for="review">Enter a movie review:</label>
+        <label for="review">Enter a sentiment:</label>
         <textarea name="review" id="review" rows="4" cols="50" required></textarea>
         <br>
         <button type="submit">Predict Sentiment</button>
